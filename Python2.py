@@ -8,3 +8,9 @@ an = a1 * (r ** (n - 1))
 
 print("El término número", n, "de la progresión geométrica es:", an)
 
+if r != 1:
+    Sn = a1 * (r ** n - 1) /r - 1
+    print("La progresión geometrica es: /t",Sn)
+else:
+    Sn = a1 * n
+    break
